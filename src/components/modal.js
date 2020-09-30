@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, Button } from 'react-bootstrap';
+import { Modal, Button, Container, Row, Col } from 'react-bootstrap';
 import "../styles/modal.css"
 
 function ModalProject (props) {
@@ -10,7 +10,7 @@ function ModalProject (props) {
             return (
                 <Modal
         {...props}
-        size="md"
+        size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         >
@@ -20,9 +20,27 @@ function ModalProject (props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p className="project-description">
-          {project.projectDescription}
-        </p>
+        {/* <Container> */}
+          <Row>
+            <Col md = {6} xs = {12}>
+              <h5>Description</h5>
+                <p className="project-description">
+                  {project.projectDescription}
+                </p>
+            </Col>
+            <Col md = {6} xs = {12}>
+              <h5>Techs used</h5>
+              {project.techs.map(item => {
+                return (
+                  <li className="project-description">
+                    {item}
+                  </li>
+                )
+              })
+            }
+            </Col>
+          </Row>
+        {/* </Container> */}
       </Modal.Body>
       <Modal.Footer className="modal-header">
         <Button onClick={props.onHide}>Close</Button>
