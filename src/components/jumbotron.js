@@ -3,9 +3,9 @@ import "../styles/jumbotron.css"
 
 function Jumbotron() {
 return(
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-        <h1 class="display-4">Alan Velázquez</h1>
+    <div className="jumbotron jumbotron-fluid">
+        <div className="container">
+        <h4 className="display-4">Hi, my name is Alan Velázquez</h4>
         </div>
     </div>
 )

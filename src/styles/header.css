@@ -142,3 +142,8 @@ header .header .logo-box {
     }
 }
 
+@media (max-width: 575px) {
+    .logo {
+        font-size: 16px;
+    }
+}

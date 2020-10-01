@@ -9,7 +9,7 @@ return (
     <header className="header-container">
         <section className="header">
             <div className="logo-box">
-                <h2 className="logo">Welcome</h2>
+                <h5 className="logo">Alan Velazquez | Full Stack Developer</h5>
             </div>
             <input type="checkbox" id="chk"></input>
             <label for="chk" className="show-menu-btn">
