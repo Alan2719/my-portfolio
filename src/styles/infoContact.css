@@ -1,0 +1,80 @@
+.info-cont {
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin: 0px;
+    height: auto;
+    margin-bottom: 10px;
+    /*display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; */
+}
+
+.wrapper-box {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.image-alan {
+    border-radius: 50%;
+    height: auto;
+    text-align: center;
+    /* width: 100%;
+    margin-left: 10px; */
+}
+
+.image-alan2 {
+    height: auto;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.contact-links {
+    margin: 20px;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-facebook-square {
+    color: black;
+}
+
+#ig {
+    color: black!important;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+    padding: 10px !important;
+    }
+}
+
+.list-contact {
+    color: black;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.contact-link2 {
+    text-decoration: none !important;
+    color: black;
+    transition: 0.2s;
+}
+
+.contact-link2:hover {
+    color: rgb(252, 110, 85);
+} 

@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactInfo from "../info";
 import Jumbotron from "../jumbotron";
 import Container from "../infoContainer";
 import Row from "../../components/projectsContainer";
@@ -9,6 +10,7 @@ import Footer from "../footer";
 function About () {
     return(
         <>
+        <ContactInfo />
         <Jumbotron />
         <Container>
             <Row>

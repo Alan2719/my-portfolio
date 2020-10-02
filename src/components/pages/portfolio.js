@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import API from "../../utils/API";
+import ContactInfo from "../info";
 import Container from "../container";
 import CardHeader from "../../components/cardHeader";
 import Row from "../../components/projectsContainer";
@@ -40,6 +41,7 @@ function Portfolio () {
 
     return(
         <>
+        <ContactInfo />
         <Container>
             <CardHeader />
             <Row>

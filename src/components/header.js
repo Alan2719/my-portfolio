@@ -9,7 +9,7 @@ return (
     <header className="header-container">
         <section className="header">
             <div className="logo-box">
-                <h5 className="logo">Alan Velazquez | Full Stack Developer</h5>
+                <h5 className="logo">Alan Velázquez | Full Stack Developer</h5>
             </div>
             <input type="checkbox" id="chk"></input>
             <label for="chk" className="show-menu-btn">
@@ -19,15 +19,15 @@ return (
             <ul className="menu">
                 <li className="text-menu">
                     <Link 
-                    to="/about"
-                    className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                    to= { process.env.PUBLIC_URL + "/" }
+                    className={location.pathname === "/" ? "nav-link active" : "nav-link"}
                     >
                     About
                     </Link>
                 </li>
                 <li className="text-menu">
                     <Link
-                    to="portfolio"
+                    to= { process.env.PUBLIC_URL + "/portfolio" }
                     className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                     >
                     Portfolio
@@ -35,7 +35,7 @@ return (
                 </li> 
                 <li className="text-menu">
                     <Link 
-                    to="contact"
+                    to= { process.env.PUBLIC_URL + "/contact" }
                     className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                     >
                     Contact
