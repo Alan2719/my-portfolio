@@ -26,12 +26,7 @@ function About () {
                 <div class="card-body">
                     <div class="text1 fade-text">
                         <p class="card-text text">
-                            Full Stack Web Developer and Automotive Design Engineer educated at Tec de Monterrey. Experience
-                            in mechanical design and mechanical analysis, mainly in mechanicals seals and automotive area. Working
-                            with Ford Motor Company in the testing area. In charge of develop one of the Key Initiative Tools inside the company.
-                            My strength in the coding area is the backend part, but I also feel comfortable working in the frontend part. 
-                            One of my best abilities is the organization. This skill allows me to always finish eveyrthing that I propose with the
-                            best quality possible. 
+                        Full Stack Web Developer and automotive design engineer, both imparted by Tecnológico de Monterrey. Recently earned the certificate that endorses as a full-stack web developer with knowledge in HTML, CSS, Javascript, Nodejs, React.js, MySQL, Mongo, and responsive web design. Passionate about developing different kind of application that involves a full solution, from the starting design until the final solution. My goal is to develop useful and efficient applications that can make any type of process easier and agile for all users. Fluent in Spanish and English. 
 
                         </p>
                     </div>
