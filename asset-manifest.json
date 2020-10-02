@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1dcf704f.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.389da0cc.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.389da0cc.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.b0fbfdc4.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.a7311871.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.a7311871.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
     "static/css/2.d34346ea.chunk.css": "/my-portfolio/static/css/2.d34346ea.chunk.css",
-    "static/js/2.a8039377.chunk.js": "/my-portfolio/static/js/2.a8039377.chunk.js",
-    "static/js/2.a8039377.chunk.js.map": "/my-portfolio/static/js/2.a8039377.chunk.js.map",
+    "static/js/2.0e913cf6.chunk.js": "/my-portfolio/static/js/2.0e913cf6.chunk.js",
+    "static/js/2.0e913cf6.chunk.js.map": "/my-portfolio/static/js/2.0e913cf6.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.32e22bfa39fdd95101b5cbd666769d22.js": "/my-portfolio/precache-manifest.32e22bfa39fdd95101b5cbd666769d22.js",
+    "precache-manifest.bce0c285099cf43ee08c26d584661198.js": "/my-portfolio/precache-manifest.bce0c285099cf43ee08c26d584661198.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/my-portfolio/static/css/2.d34346ea.chunk.css.map",
-    "static/css/main.1dcf704f.chunk.css.map": "/my-portfolio/static/css/main.1dcf704f.chunk.css.map",
-    "static/js/2.a8039377.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.a8039377.chunk.js.LICENSE.txt",
+    "static/css/main.b0fbfdc4.chunk.css.map": "/my-portfolio/static/css/main.b0fbfdc4.chunk.css.map",
+    "static/js/2.0e913cf6.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.0e913cf6.chunk.js.LICENSE.txt",
     "static/media/Alan2.jpg": "/my-portfolio/static/media/Alan2.656e5405.jpg",
+    "static/media/Alan3.JPG": "/my-portfolio/static/media/Alan3.ec8626e0.JPG",
     "static/media/background.jpg": "/my-portfolio/static/media/background.17df57d9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b00eace.js",
     "static/css/2.d34346ea.chunk.css",
-    "static/js/2.a8039377.chunk.js",
-    "static/css/main.1dcf704f.chunk.css",
-    "static/js/main.389da0cc.chunk.js"
+    "static/js/2.0e913cf6.chunk.js",
+    "static/css/main.b0fbfdc4.chunk.css",
+    "static/js/main.a7311871.chunk.js"
   ]
 }
