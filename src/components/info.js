@@ -18,7 +18,7 @@ function ContactInfo () {
                         <div className="row">
                             <div className="col-4 col-lg-4 col-md-6 media-body">
                                 <ul className="contacts">
-                                    <li className="list-contact"><i className="fas fa-envelope"></i><span> alan2719.ahcv@gmail.com</span></li>
+                                    <li className="list-contact"><a href="mailto: alan2719.ahcv@gmail.com" rel="noreferrer noopener" className="contact-link2"><i className="fas fa-envelope"></i><span> alan2719.ahcv@gmail.com</span></a></li>
                                     <li className="list-contact"><a href="https://www.linkedin.com/in/alan-vel%C3%A1zquez-mart%C3%ADnez-309769a4/" target="_blank" rel="noreferrer noopener" className="contact-link2"><i className="fab fa-linkedin"></i><span> Alan Velázquez Martínez</span></a></li>
                                 </ul>
                             </div>

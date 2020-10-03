@@ -35,10 +35,10 @@ return (
                 </li> 
                 <li className="text-menu">
                     <Link 
-                    to= { process.env.PUBLIC_URL + "/contact" }
-                    className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                    to= { process.env.PUBLIC_URL + "/experience" }
+                    className={location.pathname === "/experience" ? "nav-link active" : "nav-link"}
                     >
-                    Contact
+                    Experience
                     </Link>
                 </li>
                 <label for="chk" className="hide-menu-btn">

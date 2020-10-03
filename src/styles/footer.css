@@ -1,4 +1,9 @@
 /*text styles*/
+footer {
+    height: 100px;
+    margin-top: 25px;
+}
+
 footer .card .card-footer p {
     font-family: 'Arvo', serif;
     text-align: center;

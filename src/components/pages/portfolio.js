@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import API from "../../utils/API";
-import ContactInfo from "../info";
 import Container from "../container";
 import CardHeader from "../../components/cardHeader";
 import Row from "../../components/projectsContainer";
 import CardBody from "../../components/cardComponent";
 import Modal from "../modal";
-import Footer from "../footer";
 
 function Portfolio () {
 
@@ -41,7 +39,6 @@ function Portfolio () {
 
     return(
         <>
-        <ContactInfo />
         <Container>
             <CardHeader />
             <Row>
@@ -56,7 +53,6 @@ function Portfolio () {
                  />
             </Row>    
         </Container>
-        <Footer />
         </>
     )
 }
